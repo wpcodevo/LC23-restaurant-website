@@ -5,10 +5,309 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Food Mania</title>
+    <!-- Swiper -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
     <!-- StyleSheets -->
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="row">
+        <div class="logo">
+          <img src="./images/logo.svg" alt="logo" />
+        </div>
+
+        <nav class="navbar">
+          <a href="#home">Home</a>
+          <a href="#about">About us</a>
+          <a href="#contact">Contact us</a>
+        </nav>
+
+        <div class="right">
+          <img src="./images/search.svg" alt="search icon" />
+          <img src="./images/cart.svg" alt="cart icon" />
+          <img src="./images/hamburger.svg" alt="hamburger icon" />
+          <a href="#" class="btn nav-btn">Book now</a>
+        </div>
+
+        <div class="hamburger">
+          <img src="./images/grid-outline.svg" alt="" />
+        </div>
+      </div>
+
+      <!-- Hero Area -->
+      <div class="home">
+        <div class="row">
+          <div class="col">
+            <h1>
+              Taste the <br />
+              best Delicious <br />
+              dishes.
+            </h1>
+            <a href="#" class="btn">Explore Menu</a>
+          </div>
+          <div class="col">
+            <img src="./images/food-one.png" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <!-- Icons -->
+      <div class="container">
+        <div class="icons">
+          <div class="icon">
+            <img src="./images/facebook.svg" alt="" />
+          </div>
+          <div class="icon">
+            <img src="./images/instagram.svg" alt="" />
+          </div>
+          <div class="icon">
+            <img src="./images/twitter.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- About -->
+    <section class="about" id="about">
+      <div class="row container">
+        <div class="col">
+          <img src="./images/food-two.png" alt="" />
+        </div>
+        <div class="col">
+          <h2>Fresh,Healthy & Delicious Food</h2>
+          <p>
+            Our restaurant provide you the best food dishesh you will ever
+            experience.Let us take the opportunity to impress you by some thing
+            delivering great for you.We maintain our food qualities at its best.
+          </p>
+          <a href="#" class="btn">Explore All</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Categories -->
+    <section class="categories">
+      <h2>Our Categorized Menu</h2>
+      <div class="row container">
+        <div class="col">
+          <img src="./images/tea.svg" alt="" />
+          <h4>Beverage</h4>
+          <p>
+            We offer you the best taste from each of the sector. you will love
+            it.
+          </p>
+        </div>
+        <div class="col">
+          <img src="./images/fork.svg" alt="" />
+          <h4>Meal</h4>
+          <p>
+            We offer you the best taste from each of the sector. you will love
+            it.
+          </p>
+        </div>
+        <div class="col">
+          <img src="./images/tray.svg" alt="" />
+          <h4>Special dish</h4>
+          <p>
+            We offer you the best taste from each of the sector. you will love
+            it.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonial -->
+    <section class="testimonial">
+      <div class="row container">
+        <div class="col">
+          <img src="./images/food-three.png" alt="" />
+        </div>
+        <div class="col">
+          <h2>What people’s say about Food Mania</h2>
+          <div class="slider">
+            <div class="swiper swiper-container myslider">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <p>
+                    “Our restaurant provide you the best food dishes you will
+                    ever experience.Let us take the opportunity to impress you
+                    by some thing delivering great for you.We maintain our food
+                    qualities at its best”
+                  </p>
+                  <div class="author">
+                    <div class="image">
+                      <img src="./images/profile-one.jpg" alt="" />
+                    </div>
+                    <div class="info">
+                      <h4>Kim Anderson</h4>
+                      <span>New york,USA</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <p>
+                    “Our restaurant provide you the best food dishes you will
+                    ever experience.Let us take the opportunity to impress you
+                    by some thing delivering great for you.We maintain our food
+                    qualities at its best”
+                  </p>
+                  <div class="author">
+                    <div class="image">
+                      <img src="./images/profile-two.jpg" alt="" />
+                    </div>
+                    <div class="info">
+                      <h4>Leticia Smith</h4>
+                      <span>California,USA</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <p>
+                    “Our restaurant provide you the best food dishes you will
+                    ever experience.Let us take the opportunity to impress you
+                    by some thing delivering great for you.We maintain our food
+                    qualities at its best”
+                  </p>
+                  <div class="author">
+                    <div class="image">
+                      <img src="./images/profile-three.jpg" alt="" />
+                    </div>
+                    <div class="info">
+                      <h4>John Doe</h4>
+                      <span>Los Angeles,USA</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="custom-btn">
+              <ion-icon name="arrow-forward-outline"></ion-icon>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Menu -->
+    <section class="menu">
+      <h2>Main Menu</h2>
+
+      <div class="row container">
+        <div class="col">
+          <div class="image">
+            <img src="./images/recipe-one.png" alt="" />
+          </div>
+          <div class="d-flex">
+            <span class="bold">Thai Chicken</span>
+            <span><ion-icon name="star"></ion-icon> 9.0</span>
+          </div>
+          <div class="d-flex">
+            <span>$21.99</span>
+            <span><ion-icon name="cart"></ion-icon></span>
+          </div>
+        </div>
+        <div class="col">
+          <div class="image">
+            <img src="./images/recipe-two.jpg" alt="" />
+          </div>
+          <div class="d-flex">
+            <span class="bold">Pad Thai</span>
+            <span><ion-icon name="star"></ion-icon> 9.0</span>
+          </div>
+          <div class="d-flex">
+            <span>$21.99</span>
+            <span><ion-icon name="cart"></ion-icon></span>
+          </div>
+        </div>
+        <div class="col">
+          <div class="image">
+            <img src="./images/recipe-three.jpg" alt="" />
+          </div>
+          <div class="d-flex">
+            <span class="bold">Tom Yum Goong</span>
+            <span><ion-icon name="star"></ion-icon> 9.0</span>
+          </div>
+          <div class="d-flex">
+            <span>$21.99</span>
+            <span><ion-icon name="cart"></ion-icon></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="button">
+        <a href="#" class="btn">See More Recipes</a>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+      <div class="row container">
+        <div class="col">
+          <h2>
+            Join with us and <br />
+            Get Discount upto 40%
+          </h2>
+          <form>
+            <input type="email" placeholder="Enter your email" />
+            <button class="btn">Sign In</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="row container">
+        <div class="col">
+          <div class="logo">
+            <img src="./images/logo.svg" alt="logo" />
+          </div>
+          <div class="d-flex">
+            <span><ion-icon name="mail-outline"></ion-icon></span>
+            <span>abc@gamil.com</span>
+          </div>
+          <div class="d-flex">
+            <span><ion-icon name="globe-outline"></ion-icon></span>
+            <span>www.ziddah.com</span>
+          </div>
+        </div>
+        <div class="col">
+          <div>
+            <h4>Our menu</h4>
+            <a href="">Breakfast</a>
+            <a href="">Lunch</a>
+            <a href="">Dinner</a>
+          </div>
+          <div>
+            <h4>Information</h4>
+            <a href="">About us</a>
+            <a href="">Testimonial</a>
+            <a href="">Event</a>
+          </div>
+          <div>
+            <h4>Useful Links</h4>
+            <a href="">Services</a>
+            <a href="">Support</a>
+            <a href="">Conditions</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Swiper -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- Ion Icons -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
     <!-- Scripts -->
     <script src="js/main.js"></script>
   </body>
