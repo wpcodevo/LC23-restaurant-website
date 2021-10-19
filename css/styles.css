@@ -250,8 +250,7 @@ section {
 .header .icons {
   display: flex;
   align-items: center;
-  margin-top: 8rem;
-  margin-left: 2rem;
+  margin-top: 10rem;
 }
 
 .header .icons .icon {
@@ -282,7 +281,7 @@ section {
 
 @media (min-width: 1500px) {
   .header .icons {
-    margin-top: 0;
+    margin-top: 1rem;
   }
 }
 
@@ -650,7 +649,7 @@ section {
   border-radius: 1rem;
   overflow: hidden;
   height: 50rem;
-  background: url("../images/contact.jpg") center no-repeat fixed;
+  background: url("../images/contact.jpg") center / cover no-repeat fixed;
   position: relative;
 }
 
