@@ -56,7 +56,7 @@ scroll.reveal(
   }
 );
 
-scroll.reveal(`.categories .col:nth-child(2), .menu .btn, .contact .col`, {
+scroll.reveal(`.categories .col:nth-child(2), .menu .btn`, {
   origin: "top",
 });
 
