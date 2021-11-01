@@ -1,4 +1,4 @@
-/* Toogle Nav Menu */
+/* ========== Toogle Nav Menu ============ */
 const hamburger = document.querySelector(".hamburger");
 const navbar = document.querySelector(".navbar");
 
@@ -10,7 +10,7 @@ window.addEventListener("scroll", () => {
   navbar.classList.remove("show");
 });
 
-/* Testimonial Slider */
+/* ========== Testimonial Slider ============ */
 const swiper = new Swiper(".myslider", {
   autoplay: {
     delay: 3500,
@@ -25,7 +25,7 @@ const swiper = new Swiper(".myslider", {
   },
 });
 
-/* Scroll Reveal */
+/* ========== Scroll Reveal ============ */
 const scroll = ScrollReveal({
   distance: "60px",
   duration: 2500,

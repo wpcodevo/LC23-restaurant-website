@@ -1,6 +1,8 @@
+/* ========== Google Fonts ============ */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 
 :root {
+  /* ========== Colors ============ */
   --primary: #2e0a0c;
   --black: #424242;
   --white: #fff;
@@ -11,10 +13,13 @@
   --deep-grey: #a5a5a5;
   --light-yellow: #fffefa;
   --light-blue: #fbfbff;
+  /* ========== Box Shadow ============ */
   --box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
+  /* ========== Transition ============ */
   --transition: 0.2s;
 }
 
+/* ========== Reset Code ============ */
 *,
 *::after,
 *::before {
@@ -62,7 +67,7 @@ section {
   overflow-x: hidden;
 }
 
-/* Header */
+/* ========== Header ============ */
 .header {
   background-color: var(--light-yellow);
   height: calc(100vh - 8rem);
@@ -161,7 +166,6 @@ section {
   display: none;
 }
 
-/* Media Query */
 @media (max-width: 800px) {
   .navbar {
     position: fixed;
@@ -220,7 +224,7 @@ section {
   }
 }
 
-/* Hero Area */
+/* ========== Hero Area ============ */
 .header .home {
   height: calc(100% - 12.5rem);
 }
@@ -331,7 +335,7 @@ section {
   }
 }
 
-/* About */
+/* ========== About ============ */
 .about {
   margin-top: 5rem;
 }
@@ -393,8 +397,7 @@ section {
   }
 }
 
-/* Categories */
-
+/* ========== Categories ============ */
 .categories {
   padding-top: 0;
   margin-top: 0;
@@ -451,7 +454,7 @@ section {
   }
 }
 
-/* Testimonial */
+/* ========== Testimonial ============ */
 .testimonial .row {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -582,7 +585,7 @@ section {
   }
 }
 
-/* Menu */
+/* ========== Menu ============ */
 .menu h2 {
   font-size: 5rem;
   text-align: center;
@@ -645,7 +648,7 @@ section {
   }
 }
 
-/* Contact */
+/* ========== Contact ============ */
 .contact .row {
   border-radius: 1rem;
   overflow: hidden;
@@ -741,7 +744,7 @@ section {
   }
 }
 
-/* Footer */
+/* ========== Footer ============ */
 .footer {
   background-color: var(--light-blue);
   padding: 10rem 3rem;
