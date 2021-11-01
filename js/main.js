@@ -1,3 +1,5 @@
-/* Toogle Nav Menu */
+/* ========== Toogle Nav Menu ============ */
 
-/* Testimonial Slider */
+/* ========== Testimonial Slider ============ */
+
+/* ========== Scroll Reveal ============ */

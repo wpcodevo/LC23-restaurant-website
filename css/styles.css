@@ -1,6 +1,8 @@
+/* ========== Google Fonts ============ */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 
 :root {
+  /* ========== Colors ============ */
   --primary: #2e0a0c;
   --black: #424242;
   --white: #fff;
@@ -11,10 +13,13 @@
   --deep-grey: #a5a5a5;
   --light-yellow: #fffefa;
   --light-blue: #fbfbff;
+  /* ========== Box Shadow ============ */
   --box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
+  /* ========== Transition ============ */
   --transition: 0.2s;
 }
 
+/* ========== Reset Code ============ */
 *,
 *::after,
 *::before {
@@ -61,3 +66,19 @@ section {
   padding: 5rem 2rem 5rem;
   overflow-x: hidden;
 }
+
+/* ========== Header ============ */
+
+/* ========== Hero Area ============ */
+
+/* ========== About ============ */
+
+/* ========== Categories ============ */
+
+/* ========== Testimonial ============ */
+
+/* ========== Menu ============ */
+
+/* ========== Contact ============ */
+
+/* ========== Footer ============ */
